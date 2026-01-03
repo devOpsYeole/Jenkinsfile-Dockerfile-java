@@ -73,10 +73,10 @@ pipeline {
 
     post {
         success {
-            echo "✅ Java CI/CD Pipeline SUCCESS"
+            echo "Java CI/CD Pipeline SUCCESS"
         }
         failure {
-            echo "❌ Java CI/CD Pipeline FAILED"
+            echo "Java CI/CD Pipeline FAILED"
         }
         always {
             echo "ℹ️ Pipeline finished"
