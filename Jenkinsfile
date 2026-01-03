@@ -79,7 +79,7 @@ pipeline {
             echo "Java CI/CD Pipeline FAILED"
         }
         always {
-            echo "ℹ️ Pipeline finished"
+            echo "Pipeline finished"
         }
     }
 }
